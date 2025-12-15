@@ -3,9 +3,9 @@
   "kernelSource": {
     "name": "KernelSU-realme_sm8250_Series",
     "repo": "https://github.com/QWERQWER123123-aa/kernel_realme_sm8250",
-    "branch": "T-Backup",
-    "device": "cupida",
-    "defconfig": "cupida_defconfig"
+    "branch": "bigshot-AOSP",
+    "device": "RE546F",
+    "defconfig": "RE546F_defconfig"
   },
   "withKernelSU": true,
   "toolchains": [
@@ -40,7 +40,7 @@
     "use": true,
     "release": true,
     "repo": "https://github.com/QWERQWER123123-aa/AnyKernel3",
-    "branch": "cupida"
+    "branch": "master"
   }
 }
 ]
