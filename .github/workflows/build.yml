@@ -68,6 +68,7 @@ jobs:
           sudo tar -xvf Python-2.7.18.tgz
           cd ./Python-2.7.18
           # 配置和编译
+          chmod +x ./configure
           ./configure --enable-optimizations
           sudo make install
 
